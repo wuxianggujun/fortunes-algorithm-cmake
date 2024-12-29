@@ -1,16 +1,14 @@
-#include <assert.h>
-#include <float.h>
+#include <cassert>
+#include <cfloat>
 #include <list>
-#include <math.h>
+#include <cmath>
 #include <queue>
-#include <stdio.h>
+#include <cstdio>
 #include <random>
 #include <vector>
-
+#include "mathutil.hpp"
+#include "voronoi.hpp"
 #include "raylib.h"
-
-#include "mathutil.cpp"
-#include "voronoi.cpp"
 
 #ifdef PLATFORM_WEB
 #include <emscripten/emscripten.h>
